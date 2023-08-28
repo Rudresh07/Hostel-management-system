@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Student_Registration_Page">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Nameit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/user_icon"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/name"
+            android:background="@drawable/edittext"
+            android:hint="Name"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/rollnoit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/user_icon"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/rollno"
+            android:singleLine="true"
+            android:background="@drawable/edittext"
+            android:hint="Roll Number"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/email_icon"
+        android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/email"
+            android:singleLine="true"
+            android:background="@drawable/edittext"
+            android:hint="Email Id"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/password_icon"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/password"
+            android:singleLine="true"
+            android:background="@drawable/edittext"
+            android:hint="Password"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/yearit"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="10dp"
+            app:startIconDrawable="@drawable/calender"
+            android:layout_marginRight="20dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:id="@+id/year"
+                android:background="@drawable/edittext"
+                android:hint="Year"
+                android:inputType="number"
+                android:padding="20dp"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/branchit"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:textColor="@color/black"
+            app:startIconDrawable="@drawable/branch"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="15dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:id="@+id/branch"
+                android:background="@drawable/edittext"
+                android:hint="Branch"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/roomit"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:startIconDrawable="@drawable/hostel"
+        android:layout_marginLeft="15dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="180dp"
+            android:layout_height="70dp"
+            android:singleLine="true"
+            android:id="@+id/room"
+            android:padding="20dp"
+            android:background="@drawable/edittext"
+            android:hint="Room alloted"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#81008f"
+        android:background="@drawable/button_design"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:padding="4dp"/>
+
+
+</LinearLayout>
