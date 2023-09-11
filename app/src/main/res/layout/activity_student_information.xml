@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="5dp"
+    tools:context=".Student_Information">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:elevation="8dp"
+        android:backgroundTint="#f7ecf0"
+        android:layout_margin="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/name_show"
+                    android:text="Rudresh Patel"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Roll No:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/roll_show"
+                    android:text="2101060CS"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phone:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/phone_show"
+                    android:text="9567849764"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Email:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/email_show"
+                    android:text="rudesh@gmail.com"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Branch:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="CSE"
+                    android:id="@+id/branch_show"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Room No:"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/room_show"
+                    android:text="435"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Year:"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:id="@+id/year_show"
+                        android:text="3"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:padding="5dp"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

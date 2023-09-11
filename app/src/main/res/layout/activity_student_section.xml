@@ -42,7 +42,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center_horizontal"
                     android:padding="3dp"
-                    android:text="Manage Student"
+                    android:text="Student Details"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>

@@ -34,9 +34,10 @@ class Student_Registration_Page : AppCompatActivity(){
             val stroom = binding?.room?.text?.toString()!!
             val styear = binding?.year?.text?.toString()!!
             val stbranch = binding?.branch?.text?.toString()!!
+            val stphone = binding?.phone?.text?.toString()!!
 
-            val Studentdetail = Student_Detail(stname,stroll,stbranch,stroom,stpassword,stemail,styear)
-            val Roomdetail = Room_Details(stroom,stname,stroll,stemail)
+            val Studentdetail = Student_Detail(stname,stroll,stbranch,stroom,stpassword,stemail,styear,stphone)
+            val Roomdetail = Room_Details(stroom,stname,stroll,stemail,stphone)
 
             dbref.child(stroll).setValue(Studentdetail).addOnSuccessListener {
                 Toast.makeText(this, "Successfully added student", Toast.LENGTH_SHORT).show()

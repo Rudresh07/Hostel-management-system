@@ -20,7 +20,7 @@ class Student_Section : AppCompatActivity() {
 
         binding?.sdetails?.setOnClickListener {
 
-            val intent = Intent(this,Student_Login_Page::class.java)
+            val intent = Intent(this,Student_Information::class.java)
 
             startActivity(intent)
         }
