@@ -19,25 +19,28 @@
         android:orientation="vertical">
 
 
-
-        <com.google.android.material.textfield.TextInputLayout
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
-            android:layout_height="60dp"
-            android:id="@+id/Roomnumber"
-            android:background="@drawable/edittext"
+            android:id="@+id/frameLayoutContainingSpinner"
+            android:layout_height="40dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
-            android:padding="10dp"
-            >
-            <com.google.android.material.textfield.TextInputEditText
+            android:layout_marginRight="10dp">
+
+            <Spinner
+                android:id="@+id/spinner1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Enter room number"
-                android:textStyle="bold"
-                android:textSize="22dp"/>
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner"/>
 
 
-        </com.google.android.material.textfield.TextInputLayout>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/spinner_arrow"
+                android:layout_gravity="end"
+                 />
+
+        </FrameLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -63,6 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="45dp"
             android:gravity="center"
+            android:id="@+id/submit"
             android:layout_marginTop="40dp"
             android:backgroundTint="#81008f"
             android:background="@drawable/button_design"
